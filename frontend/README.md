@@ -1,70 +1,143 @@
-# Getting Started with Create React App
+# PayFlow Wallet System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern Full Stack Digital Wallet Application built using React.js, Node.js, Express.js, and SQLite.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+# Live Demo
 
-### `npm start`
+Frontend:
+https://payflow-frontend-8a21.onrender.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Backend:
+https://payflow-backend-7ylu.onrender.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+# Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Add Money
+- Transfer Money
+- Wallet Balance Tracking
+- Payment System
+- Transaction History
+- Admin Analytics Dashboard
+- Responsive UI Design
+- REST API Integration
+- SQLite Database Support
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Frontend
+- React.js
+- Axios
+- CSS
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Backend
+- Node.js
+- Express.js
+- SQLite3
 
-### `npm run eject`
+## Deployment
+- Render
+- GitHub
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+PayFlow/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── build/
+│
+├── backend/
+│   ├── routes/
+│   ├── database/
+│   └── server.js
+│
+└── README.md
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+# Installation
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Clone Repository
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+git clone https://github.com/CS32567/PayFlow.git
+```
 
-### Code Splitting
+## Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd frontend
+npm install
+npm start
+```
 
-### Analyzing the Bundle Size
+## Backend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+cd backend
+npm install
+node server.js
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# API Endpoints
 
-### Advanced Configuration
+## Wallet APIs
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- GET /wallet
+- POST /add-money
+- POST /transfer
+- POST /payment
+- GET /history
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Screenshots
 
-### `npm run build` fails to minify
+- Dashboard Page
+- Add Money Page
+- Transfer Page
+- Payment Page
+- History Page
+- Admin Dashboard
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+# Future Improvements
+
+- User Authentication
+- JWT Security
+- Dark Mode
+- Payment Gateway Integration
+- Cloud Database Support
+- Mobile App Version
+
+---
+
+# Author
+
+ACHIM SETTI John Benny
+
+---
+
+# GitHub Repository
+
+https://github.com/CS32567/PayFlow
+
+---
+
+# License
+
+This project is developed for educational and portfolio purposes.
