@@ -1,43 +1,44 @@
-# PayFlow 💸
+# PayFlow Wallet System
 
-PayFlow is a full-stack digital wallet and payment management application built using React, Node.js, Express, and SQLite.
-
-The application allows users to:
-- Add money to wallet
-- Transfer money
-- Make payments
-- View transaction history
-- View dashboard analytics
+A modern Full Stack Digital Wallet Application built using React.js, Node.js, Express.js, and SQLite.
 
 ---
 
-# 🚀 Live Demo
+# Live Demo
 
 Frontend:
-https://payflow-frontend-8a2l.onrender.com
+https://payflow-frontend-8a21.onrender.com
 
 Backend:
 https://payflow-backend-7ylu.onrender.com
 
-GitHub Repository:
-https://github.com/CS32567/PayFlow
+---
+
+# Features
+
+- Add Money
+- Transfer Money
+- Wallet Balance Tracking
+- Payment System
+- Transaction History
+- Admin Analytics Dashboard
+- Responsive UI Design
+- REST API Integration
+- SQLite Database Support
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ## Frontend
 - React.js
-- React Router DOM
 - Axios
 - CSS
 
 ## Backend
 - Node.js
 - Express.js
-
-## Database
-- SQLite
+- SQLite3
 
 ## Deployment
 - Render
@@ -45,36 +46,98 @@ https://github.com/CS32567/PayFlow
 
 ---
 
-# ✨ Features
+# Project Structure
 
-- Add Money
-- Transfer Money
-- Make Payments
-- Failed Transaction Handling
-- Wallet Balance
-- Transaction History
-- Search Transactions
-- Dashboard Analytics
-- Date & Time Tracking
-- Responsive UI
-
----
-
-# 📂 Project Structure
-
+```bash
 PayFlow/
 │
 ├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── build/
 │
 ├── backend/
+│   ├── routes/
+│   ├── database/
+│   └── server.js
 │
 └── README.md
+```
 
 ---
 
-# ⚙️ Installation
+# Installation
 
 ## Clone Repository
 
 ```bash
 git clone https://github.com/CS32567/PayFlow.git
+```
+
+## Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+## Backend Setup
+
+```bash
+cd backend
+npm install
+node server.js
+```
+
+---
+
+# API Endpoints
+
+## Wallet APIs
+
+- GET /wallet
+- POST /add-money
+- POST /transfer
+- POST /payment
+- GET /history
+
+---
+
+# Screenshots
+
+- Dashboard Page
+- Add Money Page
+- Transfer Page
+- Payment Page
+- History Page
+- Admin Dashboard
+
+---
+
+# Future Improvements
+
+- User Authentication
+- JWT Security
+- Dark Mode
+- Payment Gateway Integration
+- Cloud Database Support
+- Mobile App Version
+
+---
+
+# Author
+
+ACHIM SETTI John Benny
+
+---
+
+# GitHub Repository
+
+https://github.com/CS32567/PayFlow
+
+---
+
+# License
+
+This project is developed for educational and portfolio purposes.
